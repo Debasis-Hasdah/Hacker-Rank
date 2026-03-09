@@ -29,8 +29,8 @@ public class Main {
 
     public static void main(String[] args) {
 
-        List<Integer> a = Arrays.asList(5, 6, 8);
-        List<Integer> b = Arrays.asList(3, 6, 10);
+        List<Integer> a = Arrays.asList(5, 6, 8, 10);
+        List<Integer> b = Arrays.asList(3, 6, 10, 15);
 
         List<Integer> ans = Result.compareTriplets(a, b);
 
