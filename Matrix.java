@@ -20,9 +20,10 @@ public class Matrix {
 
         List<List<Integer>> matrix = new ArrayList<>();
 
-        matrix.add(Arrays.asList(11,2,4));
-        matrix.add(Arrays.asList(4,5,6));
-        matrix.add(Arrays.asList(10,8,-12));
+        matrix.add(Arrays.asList(11,2,4,9));
+        matrix.add(Arrays.asList(4,5,6,3));
+        matrix.add(Arrays.asList(10,8,-12,5));
+        matrix.add(Arrays.asList(4,2,6,8));
 
         System.out.println(diagonalDifference(matrix));
     }
