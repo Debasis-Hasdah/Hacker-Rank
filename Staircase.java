@@ -2,7 +2,7 @@ public class Staircase {
 
     public static void main(String[] args) {
 
-        int n = 6; // change value to test
+        int n = 6;
 
         staircase(n);
     }
@@ -11,12 +11,12 @@ public class Staircase {
 
         for (int i = 1; i <= n; i++) {
 
-            // print spaces
+            
             for (int j = 1; j <= n - i; j++) {
                 System.out.print(" ");
             }
 
-            // print hashes
+            
             for (int k = 1; k <= i; k++) {
                 System.out.print("#");
             }
