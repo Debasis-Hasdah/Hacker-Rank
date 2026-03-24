@@ -2,21 +2,21 @@ public class TimeConversionExample {
 
     public static String timeConversion(String s) {
 
-        String period = s.substring(8);   // AM or PM
+        String period = s.substring(8);   
         int hour = Integer.parseInt(s.substring(0, 2));
-        String rest = s.substring(2, 8); // :mm:ss
+        String rest = s.substring(2, 8);
 
         if (period.equals("AM")) {
             if (hour == 12) {
                 hour = 0;
             }
-        } else { // PM
+        } else {
             if (hour != 12) {
                 hour += 12;
             }
         }
 
-        // format hour with leading zero
+        
         return String.format("%02d", hour) + rest;
     }
 
