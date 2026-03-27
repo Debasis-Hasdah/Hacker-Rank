@@ -8,7 +8,7 @@ public class GradingStudentsExample {
 
         for (int grade : grades) {
 
-            if (grade >= 39) {
+            if (grade >= 31) {
 
                 int nextMultiple = ((grade / 5) + 1) * 5;
 
