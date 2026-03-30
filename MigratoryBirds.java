@@ -1,12 +1,12 @@
 import java.util.*;
 
-public class MigratoryBirdsExample {
+public class MigratoryBirds {
 
     public static int migratoryBirds(List<Integer> arr) {
 
         int[] count = new int[6]; // index 1 to 5
 
-        // count frequency
+
         for (int bird : arr) {
             count[bird]++;
         }
@@ -14,7 +14,7 @@ public class MigratoryBirdsExample {
         int max = 0;
         int result = 0;
 
-        // find most frequent (smallest id if tie)
+        
         for (int i = 1; i <= 5; i++) {
             if (count[i] > max) {
                 max = count[i];
