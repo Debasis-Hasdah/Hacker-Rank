@@ -4,7 +4,7 @@ public class MigratoryBirds {
 
     public static int migratoryBirds(List<Integer> arr) {
 
-        int[] count = new int[6]; // index 1 to 5
+        int[] count = new int[6]; 
 
 
         for (int bird : arr) {
