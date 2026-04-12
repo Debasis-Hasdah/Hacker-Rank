@@ -31,6 +31,7 @@ public class MigratoryBirds {
 
         int ans = migratoryBirds(arr);
 
+        System.out.println("Most common bird types: " );
         System.out.println("Most common bird types: " + ans);
     }
 }
