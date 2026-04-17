@@ -13,7 +13,7 @@ public class DrawingBookExample {
         int n1 = 6, p1 = 2;
         int n2 = 5, p2 = 4;
 
-        System.out.println("Example 1: " + pageCount(n1, p1));
-        System.out.println("Example 2: " + pageCount(n2, p2));
+        System.out.println("Example i: " + pageCount(n1, p1));
+        System.out.println("Example ii: " + pageCount(n2, p2));
     }
 }
