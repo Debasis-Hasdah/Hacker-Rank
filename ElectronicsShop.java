@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class ElectronicsShopExample {
+public class ElectronicsShop {
 
     public static int getMoneySpent(int[] keyboards, int[] drives, int b) {
 
