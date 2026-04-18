@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class BetweenTwoSetsExample {
+public class BetweenTwoSets {
 
     // function to find GCD
     public static int gcd(int a, int b) {
