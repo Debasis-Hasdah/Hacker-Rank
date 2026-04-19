@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class BreakingRecordsExample {
+public class BreakingRecords {
 
     public static List<Integer> breakingRecords(List<Integer> scores) {
 

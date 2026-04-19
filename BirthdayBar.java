@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class BirthdayBarExample {
+public class BirthdayBar {
 
     public static int birthday(List<Integer> s, int d, int m) {
 
