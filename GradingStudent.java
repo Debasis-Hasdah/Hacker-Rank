@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class GradingStudentsVSCode {
+public class GradingStudent {
 
     public static List<Integer> gradingStudents(List<Integer> grades) {
 
