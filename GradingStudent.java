@@ -24,7 +24,7 @@ public class GradingStudent {
 
         List<Integer> result = gradingStudents(grades);
 
-        System.out.println("Original: " + grades);
-        System.out.println("Rounded : " + result);
+        System.out.println("Original grade: " + grades);
+        System.out.println("Rounded grade: " + result);
     }
 }
