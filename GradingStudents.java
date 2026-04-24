@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class GradingStudentsExample {
+public class GradingStudents {
 
     public static List<Integer> gradingStudents(List<Integer> grades) {
 
