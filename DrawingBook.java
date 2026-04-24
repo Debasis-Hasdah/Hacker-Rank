@@ -1,4 +1,4 @@
-public class DrawingBookExample {
+public class DrawingBook {
 
     public static int pageCount(int n, int p) {
 
