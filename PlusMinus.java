@@ -1,4 +1,4 @@
-public class PlusMinusExample {
+public class PlusMinus {
 
     public static void plusMinus(int[] arr) {
         int positive = 0;
