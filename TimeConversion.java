@@ -1,4 +1,4 @@
-public class TimeConversionExample {
+public class TimeConversion {
 
     public static String timeConversion(String s) {
 
