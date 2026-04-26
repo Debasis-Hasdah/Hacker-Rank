@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class StringTokensExample {
+public class StringTokens {
 
     public static void main(String[] args) {
 
