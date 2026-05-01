@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class BonAppetitExample {
+public class BonAppetit {
 
     public static void bonAppetit(List<Integer> bill, int k, int b) {
 
