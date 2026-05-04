@@ -24,7 +24,7 @@ public class BirthdayBar {
 
     public static void main(String[] args) {
 
-        List<Integer> s = Arrays.asList(1, 2, 1, 3, 2);
+        List<Integer> s = Arrays.asList(1, 2, 1, 3, 2,4,4);
         int d = 3;
         int m = 2;
 
