@@ -1,4 +1,3 @@
-import java.util.*;
 
 public class ElectronicsShop {
 
@@ -22,8 +21,8 @@ public class ElectronicsShop {
 
     public static void main(String[] args) {
 
-        int[] keyboards = {3, 1};
-        int[] drives = {5, 2, 8};
+        int[] keyboards = {3, 1, 2};
+        int[] drives = {5, 2, 8, 6};
         int budget = 10;
 
         int result = getMoneySpent(keyboards, drives, budget);
