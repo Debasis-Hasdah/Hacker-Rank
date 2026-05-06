@@ -6,6 +6,8 @@ public class JavaIfElse {
         checkNumber(4);
         checkNumber(18);
         checkNumber(24);
+        checkNumber(30);
+        checkNumber(55);
 
     }
 
