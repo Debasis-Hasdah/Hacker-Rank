@@ -1,4 +1,4 @@
-public class TimeConversionVSCode {
+public class TimeConversion1 {
 
     public static String timeConversion(String s) {
 
