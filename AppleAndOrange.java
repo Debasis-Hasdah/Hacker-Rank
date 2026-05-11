@@ -1,4 +1,3 @@
-import java.util.*;
 
 public class AppleAndOrange {
 
@@ -24,8 +23,8 @@ public class AppleAndOrange {
             }
         }
 
-        System.out.println("Apples on house: " + appleCount);
-        System.out.println("Oranges on house: " + orangeCount);
+        System.out.println("Apples on house are: " + appleCount);
+        System.out.println("Oranges on house are: " + orangeCount);
     }
 
     public static void main(String[] args) {
