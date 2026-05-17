@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class BreakingRecordsVSCode {
+public class BreakingRecord {
 
     public static List<Integer> breakingRecords(List<Integer> scores) {
 
