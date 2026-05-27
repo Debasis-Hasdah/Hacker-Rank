@@ -8,17 +8,17 @@ public class JavaStringCompare {
         String smallest = s.substring(0, k);
         String largest = s.substring(0, k);
 
-        // Generate all substrings of length k
+        
         for (int i = 0; i <= s.length() - k; i++) {
 
             String current = s.substring(i, i + k);
 
-            // Compare for smallest
+           
             if (current.compareTo(smallest) < 0) {
                 smallest = current;
             }
 
-            // Compare for largest
+           
             if (current.compareTo(largest) > 0) {
                 largest = current;
             }
