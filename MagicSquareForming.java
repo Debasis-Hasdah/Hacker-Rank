@@ -23,7 +23,7 @@ public class MagicSquareForming {
 
         int minCost = Integer.MAX_VALUE;
 
-        // Compare with each magic square
+        
         for (int k = 0; k < 8; k++) {
             int cost = 0;
 
@@ -36,7 +36,7 @@ public class MagicSquareForming {
             minCost = Math.min(minCost, cost);
         }
 
-        // Output result
+        
         System.out.println("Minimum Cost: " + minCost);
     }
 }
