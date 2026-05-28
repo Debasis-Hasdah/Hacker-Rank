@@ -2,7 +2,7 @@ public class JavaStringCompare {
 
     public static void main(String[] args) {
 
-        String s = "welcometojava";
+        String s = "welcometojavaworld";
         int k = 3;
 
         String smallest = s.substring(0, k);
