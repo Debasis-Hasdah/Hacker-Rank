@@ -45,10 +45,10 @@ public class JavaArrayList {
         // Example Queries
 
         printValue(list, 1, 3); // 74
-        printValue(list, 3, 4); // 52
+        printValue(list, 3, 4); 
         printValue(list, 3, 1); // 37
         printValue(list, 4, 3); // ERROR!
-        printValue(list, 5, 5); // ERROR!
+        printValue(list, 5, 5); 
     }
 
     public static void printValue(ArrayList<ArrayList<Integer>> list,
