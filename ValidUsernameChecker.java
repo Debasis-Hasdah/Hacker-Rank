@@ -14,10 +14,10 @@ public class ValidUsernameChecker {
             "_Julia007"
         };
 
-        // Regex pattern
+        
         String regex = "^[A-Za-z][A-Za-z0-9_]{7,29}$";
 
-        // Check usernames
+        
         for (String username : usernames) {
 
             if (username.matches(regex)) {
